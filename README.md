@@ -1,2 +1,2 @@
 # online-practice-problems
-Practice problems from online websites. Leetcode. (algorithms & challenges)
+Practice problems from Leetcode. (algorithms & challenges)
