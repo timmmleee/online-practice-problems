@@ -13,7 +13,7 @@ Comparison points is the total points a person earned.
 
 Given **a** and **b**, determine their respective comparison points.
 
-For example, **a = [1,2,3]** and **b=[3,2,1]**. For elements **0**, Bob is awarded a point because **a[0] < b[0]**. For the equal elements **a[1]** and **b[1]**, no points are earned. Finally, for elements **2, a[2] > b[2]**, so Alice receives a point. Your return array would be **[1,1]** with Alice's score first and Bob's second.
+For example, **a = [1,2,3]** and **b=[3,2,1]**. For elements **0**, Bob is awarded a point because **a[0] < b[0]**. For the equal elements **a[1]** and **b[1]**, no points are earned. Finally, for elements **2, a[2] > b[2]** so Alice receives a point. Your return array would be **[1,1]** with Alice's score first and Bob's second.
 
 
 
