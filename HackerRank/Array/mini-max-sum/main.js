@@ -1,7 +1,6 @@
 function miniMaxSum(arr) {
   let min = null;
   let max = null;
-  let sum = null;
   let array = [];
 
   arr = arr.sort();
