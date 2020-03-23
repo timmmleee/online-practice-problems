@@ -1,4 +1,4 @@
-# online-practice-problems
+# Online Practice Problems
 Practice problems from LeetCode & HackerRank
 
 * Algorithms & Challenges
