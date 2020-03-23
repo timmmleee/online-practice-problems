@@ -23,7 +23,7 @@ staircase has the following parameter(s):
 
 **Input Format**
 
-A single integer, n, denoting the size of the staircase.
+A single integer, **n**, denoting the size of the staircase.
 
 **Constraints**
 
@@ -51,6 +51,7 @@ Print a staircase of size **n** using # symbols and spaces.
 ```
 
 **Explanation**
+
 The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of **n=6**.
 
 
