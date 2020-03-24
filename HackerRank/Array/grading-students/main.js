@@ -3,10 +3,12 @@ function gradingStudents(grades) {
     let roundedUpNum = Math.ceil(grades[i] / 5) * 5;
     let difference = roundedUpNum - grades[i];
 
-    if (difference < 3 && grades[i] >= 38) {
-      grades[i] = roundedUpNum;
-    } else if (difference === 3 && grades[i] >= 38) {
-      grades[i] = grades[i]
+    if (grades[i] >= 38) {
+      if (difference < 3) {
+        grades[i] = roundedUpNum;
+      } else if (difference === 3) {
+        grades[i] = grades[i]
+      }
     } else if (grades[i] < 38) {
       grades[i] = grades[i]
     }
