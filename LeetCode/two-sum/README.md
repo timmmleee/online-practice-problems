@@ -18,3 +18,7 @@ return [0, 1].
 
 **IMPORTANT**
 * Whenever you are doing a "look-up" algorithm problem, ALWAYS assume using a **hash map**!
+* New methods learned: 
+- map.has()
+- map.get()
+- map.set()
