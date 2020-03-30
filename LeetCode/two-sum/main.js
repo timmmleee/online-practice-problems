@@ -44,3 +44,30 @@ Logic
     - 2 + 7 = 9
 
 **/
+
+
+
+
+/** More efficient, faster way of solving this problem */
+const twoSum = function (nums, target) {
+  const comp = {};
+  for (let i = 0; i < nums.length; i++) {
+    if (comp[nums[i]] >= 0) {
+      return [comp[nums[i]], i]
+    }
+    comp[target - nums[i]] = i
+  }
+};
+
+/**
+Explanation:
+You are looking for the two numbers that satisfy the condition (x + y = target)
+
+He iterates through the array knowing that for each number, there is only one complementary number that could possibly satisfy the return condition (x + y = target).
+If we do some quick math and rearrange this equation, this means that target - y = x.
+We already know target, and each time we iterate we get a value of y.
+Therefore every time we iterate we calculate what the complementary x must be for that given y, so we save the value of complementary x as the key and we save the index of y.
+As we pass through the loop, we simultaneously build up a database of the potential x values that will give us our answer.
+
+Therefore, if the current number is a key in the database, we return the value of the y index we stored earlier, along with the current index, and we have our answer..
+*/
