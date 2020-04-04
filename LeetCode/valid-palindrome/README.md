@@ -20,13 +20,13 @@ Question you can ask during interview:
 * Have you considered that the string could be empty?
 
 
-Notes: 
+Notes:
 **RegExp + Metacharacters **
  *  **/[\w]/** - serach for word characters in a string
  *  **/[\W]/** - search for non-word characters in a string
  *  **/[\W]/g** - global search for non-word characters in a string
  *  **g** - g modifier is to perform a global match
- 
+
 **Methods Used**
 * **.split()** : Split a string into an array of substrings
 * **.toLowerCase()**: Lowercase all the characters in the string
