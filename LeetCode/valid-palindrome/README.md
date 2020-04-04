@@ -26,3 +26,10 @@ Notes:
  *  **/[\W]/** - search for non-word characters in a string
  *  **/[\W]/g** - global search for non-word characters in a string
  *  **g** - g modifier is to perform a global match
+ 
+**Methods Used**
+* **.split()** : Split a string into an array of substrings
+* **.toLowerCase()**: Lowercase all the characters in the string
+* **.replace()**: Searches a string and replaces a specified value, or a regular expression (regex), and returns a new string (with replaces specified values)
+* **.reverse()**: Reverses an array in place
+* **.join()**: Creates and returns a new string by concatenating all of the elements in an array
