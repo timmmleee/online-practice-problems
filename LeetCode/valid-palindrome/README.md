@@ -15,3 +15,6 @@ Example 2:
 Input: "race a car"
 Output: false
 ```
+
+Question you can ask during interview:
+* Have you considered that the string could be empty?
