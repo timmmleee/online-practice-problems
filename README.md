@@ -1,4 +1,4 @@
-# Online Practice Problems
+# Daily Practice Problems
 Practice problems from LeetCode & HackerRank
 
 * Algorithms & Data Structures
