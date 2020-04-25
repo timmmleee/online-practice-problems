@@ -1,5 +1,5 @@
 # Online Practice Problems
 Practice problems from LeetCode & HackerRank
 
-* Algorithms & Challenges
+* Algorithms & Data Structures
 * Daily problems to sharpen programming skills (JavaScript, jQuery, Node.js and logical skills)
